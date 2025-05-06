@@ -28,7 +28,7 @@ npm run dev
 
 ## 🎮 Demo
 
-[¡Juega ahora!](https://vercel.com/musashiscripts-projects/berserk-quiz-game/59iqATeduk4UA9rg5oRb3SbjqB8H)
+[¡Juega ahora!](https://berserk-quiz-game.vercel.app/)
 
 ## 📁 Estructura del proyecto
 

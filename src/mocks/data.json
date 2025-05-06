@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cómo nació Guts?",
+    "image": "https://i.pinimg.com/736x/14/5f/ae/145faeb268c1ab4b2a4f70be33fa0cf0.jpg",
+    "answers": [
+      "Fue arrancado del vientre de su madre",
+      "Encontrado bajo el cadaver de su madre",
+      "Nació en una taberna",
+      "Su madre lo dejo a un monje antes de morir"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 2,
+    "question": "¿Cuál es el nombre de la espada que utiliza Guts?",
+    "image": "https://i.pinimg.com/736x/2b/f4/b2/2bf4b2a04e131a679494c22e0f66fee9.jpg",
+    "answers": [
+      "Matadragones",
+      "Espada del Caos",
+      "Cortadora de Demonios",
+      "Colmillo Negro"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 3,
+    "question": "¿Cuál es el nombre del grupo mercenario al que pertenecía Guts?",
+    "image": "https://areajugones.sport.es/wp-content/uploads/2024/09/berserk-banda-del-halcon-edited.jpg",
+    "answers": [
+      "Manada del Lobo",
+      "Banda del Halcón",
+      "Espadas de Medianoche",
+      "Legión Carmesí"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 4,
+    "question": "¿Qué objeto permite a su portador invocar a la Mano de Dios?",
+    "image": "https://i.redd.it/e40jk0lgllnb1.png",
+    "answers": [
+      "Behelit",
+      "Amuleto de la Oscuridad",
+      "Anillo del Destino",
+      "Esfera Carmesí"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 5,
+    "question": "¿Quién es conocido como el 'Espadachín Negro'?",
+    "image": "https://preview.redd.it/why-are-guts-angry-face-always-drawn-in-the-most-artistic-v0-veacpmp1i6x91.jpg?width=640&crop=smart&auto=webp&s=2c47b2056aeeebc55e3686c7071614707693f708",
+    "answers": [
+      "Skull Knight",
+      "Guts",
+      "Zodd",
+      "Griffith"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 6,
+    "question": "¿Cuál es el nombre del elfo que acompaña a Guts?",
+    "image": "https://i.redd.it/l671o7wqxk3c1.jpg",
+    "answers": [
+      "Puck",
+      "Rickert",
+      "Isidro",
+      "Judeau"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 7,
+    "question": "¿Qué evento marca la transformación de Griffith en Femto?",
+    "image": "https://i.redd.it/d8ihrfbmshsc1.jpeg",
+    "answers": [
+      "La Noche Carmesí",
+      "El Eclipse",
+      "La Ascensión",
+      "El Sacrificio"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 8,
+    "question": "¿Qué armadura mágica utiliza Guts que le otorga una fuerza sobrehumana?",
+    "image": "https://preview.redd.it/some-high-quality-berserk-panels-v0-edm5rapococa1.jpg?width=640&crop=smart&auto=webp&s=c76cc7e209103225200dfdb2b24158974c56a94d",
+    "answers": [
+      "Armadura del Caos",
+      "Armadura del Lobo",
+      "Armadura del Berserker",
+      "Armadura de la Ira"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 9,
+    "question": "¿Quién es el líder de la Mano de Dios?",
+    "image": "https://i.redd.it/e40jk0lgllnb1.png",
+    "answers": [
+      "Slan",
+      "Ubik",
+      "Conrad",
+      "Void"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 10,
+    "question": "¿Quién es el herrero que forjó la espada de Guts?",
+    "image": "https://i.redd.it/s3rsrhaw5hjc1.jpeg",
+    "answers": [
+      "Godo",
+      "Rickert",
+      "Silat",
+      "Mozgus"
+    ],
+    "correctAnswer": 0
+  }
+]

@@ -19,15 +19,15 @@ export const GameOverModal: React.FC<Props> = ({ closeModal }) => {
 
   if (correct === questions.length) {
     msg = 'Felicidades, obtuvistes una puntuacion perfecta!! 😃🎉'
-    gifPath = '/berserk-quiz-game/gifs/puck-happy.gif'
+    gifPath = './berserk-quiz-game/gifs/puck-happy.gif'
   }
   else if (correct < 10 && correct >= 6) {
     msg = 'Puntuacion por encima de la media, felicitaciones!!😃🎉'
-    gifPath = '/berserk-quiz-game/gifs/puck-speed.gif'
+    gifPath = './berserk-quiz-game/gifs/puck-speed.gif'
   }
   else {
     msg = 'Vamos, se que puedes hacerlo mejor, intentalo de nuevo🧐'
-    gifPath = '/berserk-quiz-game/gifs/puck-out.gif'
+    gifPath = './berserk-quiz-game/gifs/puck-out.gif'
   }
 
   return (

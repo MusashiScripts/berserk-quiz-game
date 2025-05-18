@@ -19,20 +19,20 @@ export const GameOverModal: React.FC<Props> = ({ closeModal }) => {
 
   if (correct === questions.length) {
     msg = 'Felicidades, obtuvistes una puntuacion perfecta!! 😃🎉'
-    gifPath = './gifs/puck-happy.gif'
+    gifPath = '/berserk-quiz-game/gifs/puck-happy.gif'
   }
   else if (correct < 10 && correct >= 6) {
     msg = 'Puntuacion por encima de la media, felicitaciones!!😃🎉'
-    gifPath = './gifs/puck-speed.gif'
+    gifPath = '/berserk-quiz-game/gifs/puck-speed.gif'
   }
   else {
     msg = 'Vamos, se que puedes hacerlo mejor, intentalo de nuevo🧐'
-    gifPath = './gifs/puck-out.gif'
+    gifPath = '/berserk-quiz-game/gifs/puck-out.gif'
   }
 
   return (
     <section onClick={closeModal} className='fixed inset-0 z-10 backdrop-blur flex justify-center items-center'>
-      <Card className='relative' onClick={(event) => event.stopPropagation()}>
+      <Card id='game-over-modal' className='relative' onClick={(event) => event.stopPropagation()}>
         <CircleXIcon onClick={closeModal} className='absolute top-1.5 right-1.5 size-6 cursor-pointer' />
         <Badge variant='default' className='absolute top-1.5 left-1.5 rounded-full'> {correct} / { questions.length}</Badge>
         <CardHeader className='mt-2'>

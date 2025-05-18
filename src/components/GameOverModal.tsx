@@ -14,20 +14,21 @@ export const GameOverModal: React.FC<Props> = ({ closeModal }) => {
   const resetQuizz = useQuestionsStore(state => state.resetQuizz)
   const { correct } = useQuestionsData()
 
+  const pathBase = import.meta.env.BASE_URL
   let msg
   let gifPath
 
   if (correct === questions.length) {
     msg = 'Felicidades, obtuvistes una puntuacion perfecta!! 😃🎉'
-    gifPath = '/gifs/puck-happy.gif'
+    gifPath = `${pathBase}gifs/puck-happy.gif`
   }
   else if (correct < 10 && correct >= 6) {
     msg = 'Puntuacion por encima de la media, felicitaciones!!😃🎉'
-    gifPath = '/gifs/puck-speed.gif'
+    gifPath = `${pathBase}gifs/puck-speed.gif`
   }
   else {
     msg = 'Vamos, se que puedes hacerlo mejor, intentalo de nuevo🧐'
-    gifPath = '/gifs/puck-out.gif'
+    gifPath = `${pathBase}gifs/puck-out.gif`
   }
 
   return (

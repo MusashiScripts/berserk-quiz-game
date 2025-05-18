@@ -4,6 +4,6 @@ interface Props{
 
 export const GutsIcon: React.FC<Props> = ({ className }) => {
   return (
-    <img className={ className } src={`${import.meta.env.BASE_URL}guts.jpg`} alt="guts icon" />
+    <img className={ className } src='/guts.jpg' alt="guts icon" />
   )
 }

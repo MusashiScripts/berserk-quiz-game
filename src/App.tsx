@@ -19,7 +19,7 @@ function App() {
       {
           isPlaying
             ? <Game />
-            : <Button className='cursor-pointer' variant='outline'
+            : <Button id='start-game-button' className='cursor-pointer' variant='outline'
               onClick={startGame}>Start Game</Button>
       }
         {

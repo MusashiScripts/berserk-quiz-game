@@ -46,7 +46,7 @@ export function Game() {
 
   return (
     <>
-      <Card className='h-full w-80 sm:w-[480px] md:w-[540px] lg:w-[620px]'>
+      <Card id='game' className='h-full w-80 sm:w-[480px] md:w-[540px] lg:w-[620px]'>
         <Header />
         <CardHeader className='gap-3'>
           <CardTitle>{ firstQuestion.question }</CardTitle>
